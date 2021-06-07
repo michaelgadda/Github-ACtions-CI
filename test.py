@@ -4,6 +4,7 @@ import calculator
 
 class testCalculator(unittest.TestCase):
 
+
     def test_add(self):
         self.assertEqual(calculator.add(2, 5), 7)
 
@@ -18,4 +19,3 @@ class testCalculator(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
